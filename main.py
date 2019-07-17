@@ -78,7 +78,7 @@ def display_lines(image, lines):
 ##cv2.imshow('img',combo)
 ##cv2.waitKey()
 
-cap = cv2.VideoCapture('test2.mp4')
+cap = cv2.VideoCapture('road.mp4')
 
 while cap.isOpened():
     _, img = cap.read()
